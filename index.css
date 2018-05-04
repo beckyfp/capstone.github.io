@@ -113,6 +113,7 @@ main {
 main h1 {
     font-size: 60px;
     text-align: left;
+    padding-left: 2em;
 }
 
 main h2 {
@@ -120,6 +121,7 @@ main h2 {
     text-align: left;
     font-size: 40px;
     color:#4b2e83;
+    padding-left: 2em;
 }
 
 #states {
