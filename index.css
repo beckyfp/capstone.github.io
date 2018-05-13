@@ -127,6 +127,7 @@ main h2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding-bottom: 2em;
 }
 
 #states h4 {
@@ -142,7 +143,7 @@ main h2 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: 
+    justify-content: center;
     background: #BDAE84; /* Old browsers */
     background: -moz-linear-gradient(top, #BDAE84 1%, #7E6C43 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, #BDAE84 1%,#7E6C43  100%); /* Chrome10-25,Safari5.1-6 */
@@ -153,14 +154,21 @@ main h2 {
     padding-top: 1em;
     font-family: 'Encode Sans', sans-serif;
     font-weight: 700;
-    font-size: 24pt;
+    font-size: 28pt;
     color: white;
+    text-align: center;
 }
 
 #screenshots ul, #screenshots li {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14pt;
+    font-size: 17pt;
     color: white;
+}
+
+#screenshots ul {
+    padding-top: 1em;
+    text-align: center;
+    list-style-position: inside;
 }
 
 .screenshotbox {
@@ -170,8 +178,8 @@ main h2 {
     margin-left: auto;
     padding-bottom: 1em;
     padding-top: 20px;
+    text-align: center;
 }
-
 
 .screenshot {
     padding: 5px;
